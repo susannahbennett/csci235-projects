@@ -1,0 +1,24 @@
+Script started on Mon 23 Sep 2019 10:25:45 PM CDT
+]0;susannahbennett@cslab25:~/csci235/project1[?1034h[susannahbennett@cslab25 project1]$ exitjava PigLatinexit[Kjava PigLatinemacs PigLatin.java[6Pjava PigLatinc PigLatin.java
+]0;susannahbennett@cslab25:~/csci235/project1[susannahbennett@cslab25 project1]$ javac PigLatin.javaexit[Kjava PigLatin
+Please enter words: what a beua  autiful day
+The Pig Latin expression: hatway aay eautifulbay ayday 
+]0;susannahbennett@cslab25:~/csci235/project1[susannahbennett@cslab25 project1]$ java PigLatin
+Please enter words: computers at cs lab
+The Pig Latin expression: omputerscay taay scay ablay 
+]0;susannahbennett@cslab25:~/csci235/project1[susannahbennett@cslab25 project1]$ java PigLatin
+Please enter words: a big city
+The Pig Latin expression: aay igbay itycay 
+]0;susannahbennett@cslab25:~/csci235/project1[susannahbennett@cslab25 project1]$ java PigLatin
+Please enter words: anderson commons
+The Pig Latin expression: ndersonaay ommonscay 
+]0;susannahbennett@cslab25:~/csci235/project1[susannahbennett@cslab25 project1]$ java PigLatin
+Please enter words: books
+The Pig Latin expression: ooksbay 
+]0;susannahbennett@cslab25:~/csci235/project1[susannahbennett@cslab25 project1]$ java PigLatin
+Please enter words: h
+The Pig Latin expression: hay 
+]0;susannahbennett@cslab25:~/csci235/project1[susannahbennett@cslab25 project1]$ exit
+exit
+
+Script done on Mon 23 Sep 2019 10:26:53 PM CDT

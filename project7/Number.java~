@@ -1,0 +1,17 @@
+/** 
+ * Number.java
+ *
+ * Evaluation class that implements ExprNode
+ * 
+ * @author Susannah Bennett
+ * CSCI 235, Wheaton College, Fall 2019
+ * Project 7
+ * 12.6.19
+ */
+
+public class Number implements ExprNode {
+
+    public double evaluate (double x){
+	return Integer.parseInt(args[0]);
+    }
+}

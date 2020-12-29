@@ -1,0 +1,91 @@
+Script started on Mon 11 Nov 2019 02:44:40 PM CST
+]777;notify;Command completed;exit]0;susannahbennett@cslab13:~/csci235/project5]7;file://cslab13/homes/susannahbennett/csci235/project5[?1034h[susannahbennett@cslab13 project5]$ exitjavac .*javaemacs ATMdriver.java[6P.java[8Pscriptemacs ATM.java[8Pscriptjavac *.java
+]777;notify;Command completed;javac *.java]0;susannahbennett@cslab13:~/csci235/project5]7;file://cslab13/homes/susannahbennett/csci235/project5[susannahbennett@cslab13 project5]$ javac *.java[8Pexitjavac .*javaemacs ATMdriver.java[6P.java[8Pscriptemacs ATM.java[8Pscriptjavac *.javaemacs ATMdriver.java[2Pjava ATMdriver ATM[K[K[K[K
+W: withdraw money from the ATM
+T: add twenties to the ATM
+F: add fives to the ATM
+Q: quit
+
+Your choice: t
+How many twenties do you want to add?
+f 2
+ATM now has 
+	 2 twenty dollar bills and 0 five dollar bills:$40
+
+W: withdraw money from the ATM
+T: add twenties to the ATM
+F: add fives to the ATM
+Q: quit
+
+Your choice: f
+How many fives do you want to add?
+5
+ATM now has 
+	 2 twenty dollar bills and 5 five dollar bills:$65
+W: withdraw money from the ATM
+T: add twenties to the ATM
+F: add fives to the ATM
+Q: quit
+
+Your choice: w
+How much do you want to withdraw? Please enter a multiple of 5.
+45
+ATM now has 
+	 0 twenty dollar bills and 4 five dollar bills:$20
+
+W: withdraw money from the ATM
+T: add twenties to the ATM
+F: add fives to the ATM
+Q: quit
+
+Your choice: w
+How much do you want to withdraw? Please enter a multiple of 5.
+25
+Not enough money in balance for withdraw.
+ATM now has 
+	 0 twenty dollar bills and 4 five dollar bills:$20
+
+W: withdraw money from the ATM
+T: add twenties to the ATM
+F: add fives to the ATM
+Q: quit
+
+Your choice: w
+How much do you want to withdraw? Please enter a multiple of 5.
+10
+ATM now has 
+	 0 twenty dollar bills and 2 five dollar bills:$10
+
+W: withdraw money from the ATM
+T: add twenties to the ATM
+F: add fives to the ATM
+Q: quit
+
+Your choice: t
+How many twenties do you want to add?
+2
+ATM now has 
+	 2 twenty dollar bills and 2 five dollar bills:$50
+
+W: withdraw money from the ATM
+T: add twenties to the ATM
+F: add fives to the ATM
+Q: quit
+
+Your choice: w
+How much do you want to withdraw? Please enter a multiple of 5.
+35
+Sorry, the transaction cannot be made.
+ATM now has 
+	 2 twenty dollar bills and 2 five dollar bills:$50
+
+W: withdraw money from the ATM
+T: add twenties to the ATM
+F: add fives to the ATM
+Q: quit
+
+Your choice: q
+]777;notify;Command completed;java ATMdriver]0;susannahbennett@cslab13:~/csci235/project5]7;file://cslab13/homes/susannahbennett/csci235/project5[susannahbennett@cslab13 project5]$ x[Kexit
+exit
+
+Script done on Mon 11 Nov 2019 02:47:03 PM CST

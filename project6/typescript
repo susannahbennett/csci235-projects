@@ -1,0 +1,200 @@
+Script started on Tue 26 Nov 2019 08:41:33 AM CST
+]0;susannahbennett@cslab25:~/csci235/project6[?1034h[susannahbennett@cslab25 project6]$ jv[Kavac *.java
+]0;susannahbennett@cslab25:~/csci235/project6[susannahbennett@cslab25 project6]$ java ListTest IList
+List235 class: IList
+Initial: [ ]
+isEmpty()? true
+length() 0
+insertAtFront(4)
+[ 4 ]
+length() 1
+isEmpty()? false
+populate("3 2 7 4 7 11"
+[ 3 2 7 4 7 11 4 ]
+length() 7
+[ 3 2 7 4 7 11 4 ]
+removeSmallest
+2
+[ 3 7 4 7 11 4 ]
+insertAfter (2, 0)
+[ 3 2 7 4 7 11 4 ]
+deleteFront()
+[ 2 7 4 7 11 4 ]
+deleteFront()
+[ 7 4 7 11 4 ]
+insertAtFront(7)
+removeFront() 7
+insertAtFront(4)
+insertAtFront(2)
+[ 2 4 7 4 7 11 4 ]
+elementAt(0) 2
+elementAt(2) 7
+[ 2 4 7 4 7 11 4 ]
+deleteAt(3)
+[ 2 4 7 7 11 4 ]
+deleteAt(0)
+[ 4 7 7 11 4 ]
+insertAtFront(2)
+[ 2 4 7 7 11 4 ]
+insertAfter(7, 2) [7 after position 2]
+[ 2 4 7 7 7 11 4 ]
+insertAfter(5, 1) [5 after position 1]
+[ 2 4 5 7 7 7 11 4 ]
+insertAfter(4, 1) [4 after position 1]
+[ 2 4 4 5 7 7 7 11 4 ]
+insertAfter(4, 3) [4 after position 3]
+[ 2 4 4 5 4 7 7 7 11 4 ]
+[ 2 4 4 5 4 7 7 7 11 4 ]
+contains(4): true
+contains(17): false
+deleteFirstOccurrence(4)
+[ 2 4 5 4 7 7 7 11 4 ]
+deleteFirstOccurrence(17)
+[ 2 4 5 4 7 7 7 11 4 ]
+deleteAll(4)
+[ 2 5 7 7 7 11 ]
+contains(4): false
+insertAtBack(12)
+[ 2 5 7 7 7 11 12 ]
+insertSorted(15)
+[ 2 5 7 7 7 11 12 15 ]
+insertSorted(6)
+[ 2 5 6 7 7 7 11 12 15 ]
+insertSorted(1)
+[ 1 2 5 6 7 7 7 11 12 15 ]
+void reverse()
+[ 1 2 5 6 7 7 7 11 12 15 ]
+]0;susannahbennett@cslab25:~/csci235/project6[susannahbennett@cslab25 project6]$ java ListTest RList
+List235 class: RList
+Initial: [  ]
+isEmpty()? true
+length() 0
+insertAtFront(4)
+[ 4  ]
+length() 1
+isEmpty()? false
+populate("3 2 7 4 7 11"
+[ 3 2 7 4 7 11 4  ]
+length() 7
+[ 3 2 7 4 7 11 4  ]
+removeSmallest
+[ 3 7 4 7 11 4  ]
+insertAfter (2, 0)
+[ 3 2 7 4 7 11 4  ]
+deleteFront()
+[ 2 7 4 7 11 4  ]
+deleteFront()
+[ 7 4 7 11 4  ]
+insertAtFront(7)
+removeFront() 7
+insertAtFront(4)
+insertAtFront(2)
+[ 2 4 7 4 7 11 4  ]
+elementAt(0) 2
+elementAt(2) 7
+[ 2 4 7 4 7 11 4  ]
+deleteAt(3)
+[ 2 4 7 7 11 4  ]
+deleteAt(0)
+[ 4 7 7 11 4  ]
+insertAtFront(2)
+[ 2 4 7 7 11 4  ]
+insertAfter(7, 2) [7 after position 2]
+[ 2 4 7 7 7 11 4  ]
+insertAfter(5, 1) [5 after position 1]
+[ 2 4 5 7 7 7 11 4  ]
+insertAfter(4, 1) [4 after position 1]
+[ 2 4 4 5 7 7 7 11 4  ]
+insertAfter(4, 3) [4 after position 3]
+[ 2 4 4 5 4 7 7 7 11 4  ]
+[ 2 4 4 5 4 7 7 7 11 4  ]
+contains(4): true
+contains(17): false
+deleteFirstOccurrence(4)
+[ 2 4 5 4 7 7 7 11 4  ]
+deleteFirstOccurrence(17)
+[ 2 4 5 4 7 7 7 11 4  ]
+deleteAll(4)
+[ 2 5 7 7 7 11  ]
+contains(4): false
+insertAtBack(12)
+[ 2 5 7 7 7 11 12  ]
+insertSorted(15)
+[ 2 5 7 7 7 11 12 15  ]
+insertSorted(6)
+[ 2 5 6 7 7 7 11 12 15  ]
+insertSorted(1)
+[ 1 2 5 6 7 7 7 11 12 15  ]
+]0;susannahbennett@cslab25:~/csci235/project6[susannahbennett@cslab25 project6]$ java ListTest Dl[KList
+List235 class: DList
+Initial: [ ]
+isEmpty()? true
+length() 0
+insertAtFront(4)
+[ 4 ]
+length() 1
+isEmpty()? false
+populate("3 2 7 4 7 11"
+[ 3 2 7 4 7 11 4 ]
+length() 7
+[ 3 2 7 4 7 11 4 ]
+removeSmallest
+[ 3 7 4 7 11 4 ]
+reverse [ 4 11 7 4 7 3 ]
+insertAfter (2, 0)
+[ 3 2 7 4 7 11 4 ]
+deleteFront()
+[ 2 7 4 7 11 4 ]
+deleteFront()
+[ 7 4 7 11 4 ]
+reverse [ 4 11 7 4 7 ]
+insertAtFront(7)
+removeFront() 7
+insertAtFront(4)
+insertAtFront(2)
+[ 2 4 7 4 7 11 4 ]
+reverse [ 4 11 7 4 7 4 2 ]
+elementAt(0) 2
+elementAt(2) 7
+[ 2 4 7 4 7 11 4 ]
+deleteAt(3)
+[ 2 4 7 7 11 4 ]
+deleteAt(0)
+[ 4 7 7 11 4 ]
+reverse [ 4 11 7 7 4 ]
+insertAtFront(2)
+[ 2 4 7 7 11 4 ]
+insertAfter(7, 2) [7 after position 2]
+[ 2 4 7 7 7 11 4 ]
+insertAfter(5, 1) [5 after position 1]
+[ 2 4 5 7 7 7 11 4 ]
+insertAfter(4, 1) [4 after position 1]
+[ 2 4 4 5 7 7 7 11 4 ]
+insertAfter(4, 3) [4 after position 3]
+[ 2 4 4 5 4 7 7 7 11 4 ]
+reverse [ 4 11 7 7 7 4 5 4 4 2 ]
+[ 2 4 4 5 4 7 7 7 11 4 ]
+contains(4): true
+contains(17): false
+deleteFirstOccurrence(4)
+[ 2 4 5 4 7 7 7 11 4 ]
+deleteFirstOccurrence(17)
+[ 2 4 5 4 7 7 7 11 4 ]
+deleteAll(4)
+[ 2 5 7 7 7 11 ]
+reverse [ 11 7 7 7 5 2 ]
+contains(4): false
+insertAtBack(12)
+[ 2 5 7 7 7 11 12 ]
+reverse [ 12 11 7 7 7 5 2 ]
+insertSorted(15)
+[ 2 5 7 7 7 11 12 15 ]
+insertSorted(6)
+[ 2 5 6 7 7 7 11 12 15 ]
+insertSorted(1)
+[ 1 2 5 6 7 7 7 11 12 15 ]
+reverse [ 15 12 11 7 7 7 6 5 2 1 ]
+]0;susannahbennett@cslab25:~/csci235/project6[susannahbennett@cslab25 project6]$ ei[Kxit
+exit
+
+Script done on Tue 26 Nov 2019 08:42:53 AM CST

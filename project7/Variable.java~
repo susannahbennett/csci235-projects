@@ -1,0 +1,13 @@
+/**
+ * Variable.java
+ * 
+ * holds something
+ *
+ * @author Susannah Bennett
+ * Wheaton College, CSCI235, Fall 2019
+ * 6 December 2019
+ */
+
+public class Variable implements ExprNode{
+    
+    private 

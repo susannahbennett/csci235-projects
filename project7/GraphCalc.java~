@@ -1,0 +1,66 @@
+/**
+ * GraphCalc.java
+ *
+ * Graphing calculator program (class with main method)
+ *
+ * @author Susannah Bennett
+ * CSCI 235, Wheaton College, Fall 2019
+ * Project 7
+ * 12/7/19
+ */
+
+import javax.swing.*;  
+import java.awt.*;
+import java.awt.event.*;
+
+public class GraphCalc {
+
+    public static void main(String[] args) {
+
+        JFrame window = new JFrame("Graphing calculator");
+    	window.setLayout(new FlowLayout());
+	    window.setSize(350, 600);
+        
+        PaintPanel graphPanel = new PaintPanel(350, 350);
+        Painter painter = new Painter();
+        graphPanel.setPainter(painter);
+
+        JTextField funcField = new JTextField(25);
+        JTextField xminField = new JTextField(5);
+        JTextField yminField = new JTextField(5);
+        JTextField xmaxField = new JTextField(5);
+        JTextField ymaxField = new JTextField(5);
+
+        xminField.setText("-10");
+        yminField.setText("-10");
+        xmaxField.setText("10");
+        ymaxField.setText("10");
+
+        JButton go = new JButton("Go");
+
+	    window.add(graphPanel);
+	    JPanel panel2 = new JPanel();
+
+        JLabel xmin = new JLabel("x min: ");
+        JLabel ymin = new JLabel("y min: ");
+        JLabel xmax = new JLabel("x max: ");
+        JLabel ymax = new JLabel("y max: ");
+
+	    panel2.setLayout(new FlowLayout());
+	    panel2.add(go);
+        panel2.add(xmin);
+        panel2.add(xminField);
+        panel2.add(ymin);
+        panel2.add(yminField);
+        panel2.add(xmax);
+        panel2.add(xmaxField);
+        panel2.add(ymax);
+        panel2.add(ymaxField);
+
+	    window.add(panel2);
+	    window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    window.setVisible(true);
+    }
+
+
+}
